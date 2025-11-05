@@ -1,0 +1,48 @@
+Thông tin các thành viên và công việc:
+    Vũ Đình Hoàng - 23001881:
+    Nguyễn Nhật Đan - 23001861:
+    Hoàng Mạnh Duy - 23001852:
+
+
+
+Các thư viện Python cần cài:
+    pandas
+    numpy
+    scikit-learn
+    matplotlib
+    seaborn
+
+Thông tin về dataset:
+    Bộ dữ liệu này được sử dụng cho bài toán dự đoán rối loạn phổ tự kỷ (Autism Spectrum Disorder - ASD).  
+    Mỗi dòng trong tập dữ liệu đại diện cho một người tham gia khảo sát sàng lọc tự kỷ.  
+    Bộ dữ liệu bao gồm cả thông tin nhân khẩu học (demographic) và câu trả lời cho 10 câu hỏi trắc nghiệm sàng lọc AQ-10.  
+    Biến mục tiêu là “Class/ASD”, cho biết người tham gia có khả năng mắc tự kỷ hay không.
+
+    1. Thông tin tổng quan:
+    Bộ dữ liệu gồm nhiều thuộc tính phản ánh các đặc điểm cá nhân, tình trạng sức khỏe, và câu trả lời cho bộ câu hỏi AQ-10.  
+    Các thông tin bao gồm: tuổi, giới tính, chủng tộc, quốc gia, tiền sử bệnh vàng da, tiền sử tự kỷ trong gia đình, việc đã từng sử dụng ứng dụng sàng lọc, v.v.
+
+    2. Mô tả từng thuộc tính:
+    - ID: Mã định danh duy nhất cho mỗi người tham gia.  
+    - A1_Score –> A10_Score: 10 câu hỏi trong bài kiểm tra AQ-10 (1 = có dấu hiệu tự kỷ, 0 = không).  
+    - age: Tuổi của người tham gia (dạng số thực)
+    - gender: Giới tính (‘m’ = nam, ‘f’ = nữ).  
+    - ethnicity: Chủng tộc của người tham gia (White-European, Middle Eastern, Pasifika, Black, Others, Hispanic, Asian, Turkish, South Asian, Latino).  
+    - jaundice: Người đó có bị vàng da lúc mới sinh hay không (‘yes’ hoặc ‘no’).  
+    - austim: Có người thân bị tự kỷ hay không (‘yes’ hoặc ‘no’).  
+    - contry_of_res: Quốc gia nơi người tham gia đang sinh sống.  
+    - used_app_before: Đã từng sử dụng ứng dụng sàng lọc trước đây hay chưa (‘yes’ hoặc ‘no’).  
+    - result: Điểm kết quả của bài kiểm tra AQ-10 (dạng số thực, có thể tính từ tổng điểm của 10 câu hỏi).  
+    - age_desc: Mô tả nhóm tuổi (ví dụ: “18 and more”).  
+    - relation: Mối quan hệ giữa người điền biểu mẫu và người được khảo sát (Self, Parent, Relative, Health care professional, Others).  
+    - Class/ASD: Biến mục tiêu — 1 nếu người tham gia có dấu hiệu tự kỷ, 0 nếu không.
+
+    3. Ghi chú:
+    - Một số cột dạng chuỗi có chứa giá trị thiếu (“?”).  
+    - Các thuộc tính dạng chữ (categorical) cần được mã hóa (encoding) trước khi đưa vào mô hình học máy.  
+    - Bộ dữ liệu có thể bị mất cân bằng giữa hai lớp (Class/ASD = 0 và 1).  
+    - Có thể tạo thêm biến tổng hợp, chẳng hạn như tổng điểm AQ (A1_Score đến A10_Score).
+
+    4. Biến mục tiêu:
+    - Class/ASD = 1: Người tham gia có khả năng mắc rối loạn phổ tự kỷ.  
+    - Class/ASD = 0: Người tham gia bình thường.  
