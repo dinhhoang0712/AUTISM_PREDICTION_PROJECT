@@ -1,7 +1,7 @@
 Thông tin các thành viên và công việc:
-    Vũ Đình Hoàng - 23001881:
-    Nguyễn Nhật Đan - 23001861:
-    Hoàng Mạnh Duy - 23001852:
+    Vũ Đình Hoàng - 23001881: Thực hiện tiền xử lý, giảm chiều dữ liệu, phân tích trực quan hóa,viết báo cáo
+    Nguyễn Nhật Đan - 23001861:Tìm hiểu thực hiện phân loại bằng Logistic Regression đánh giá mô hình, làm slide, thu thập dữ liệu
+    Hoàng Mạnh Duy - 23001852:Tìm hiểu thực hiện phân loại bằng K-NN đánh giá mô hình, làm slide, thu thập dữ liệu
 
 
 
