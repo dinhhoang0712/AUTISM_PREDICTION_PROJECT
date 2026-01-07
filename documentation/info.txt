@@ -1,16 +1,9 @@
 Thông tin các thành viên và công việc:
-    Vũ Đình Hoàng - 23001881: Thực hiện tiền xử lý, giảm chiều dữ liệu, phân tích trực quan hóa,viết báo cáo
+    Vũ Đình Hoàng - 23001881: Thực hiện tiền xử lý, giảm chiều dữ liệu(PCA, LDA), phân tích trực quan hóa, viết báo cáo
     Nguyễn Nhật Đan - 23001861:Tìm hiểu thực hiện phân loại bằng Logistic Regression đánh giá mô hình, làm slide, thu thập dữ liệu
     Hoàng Mạnh Duy - 23001852:Tìm hiểu thực hiện phân loại bằng K-NN đánh giá mô hình, làm slide, thu thập dữ liệu
 
 
-
-Các thư viện Python cần cài:
-    pandas
-    numpy
-    scikit-learn
-    matplotlib
-    seaborn
 
 Thông tin về dataset:
     Bộ dữ liệu này được sử dụng cho bài toán dự đoán rối loạn phổ tự kỷ (Autism Spectrum Disorder - ASD).  
